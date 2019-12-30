@@ -97,6 +97,10 @@ main {
   padding-top: var(--desktop-spacing);
 }
 
+.new_section {
+  margin-top: var(--desktop-spacing);
+}
+
 .article_container {
   display: flex;
   justify-content: space-between;
