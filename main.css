@@ -1,0 +1,135 @@
+:root {
+  font-size: 16px;
+  /* TEXT COLOR */
+  --primary-text-color: #000000;
+  --secondary-text-color: #616161;
+
+  /* LAYOUT GRID MARGIN: SPACING FOR LAYOUT MARGINS */
+  --desktop-grid-margin: 40px;
+  --mobile-grid-margin: 24px;
+
+  /* SPACING: FOR SPACING GROUPS OF COLLECTIVE UI ELEMENTS */
+  --desktop-spacing: 80px;
+  --mobile-spacing: 48px;
+
+  /* DESKTOP FONT SIZES */
+  --desktop-title: 48px;
+  --desktop-subtitle: 20px;
+  --desktop-link: 16px;
+  --desktop-overline: 12px;
+  --desktop-card-title: 20px;
+
+  /* MOBILE FONT SIZES */
+  --mobile-title: 40px;
+  --mobile-subtitle: 20px;
+  --mobile-link: 16px;
+  --mobile-overline: 16px;
+  --mobile-card-title: 20px;
+
+  /* MARGINS: FOR SPACING INDIE UI ELEMENTS */
+  --center-margin: 0 auto;
+  --small-margin: 8px;
+  --base-margin: 16px;
+  --large-margin: 32px;
+}
+
+@font-face {
+  font-family: aRegular;
+  src: url('/assets/fonts/Aileron-Regular.otf');
+}
+
+@font-face {
+  font-family: aSemi;
+  src: url('/assets/fonts/Aileron-SemiBold.otf');
+}
+@font-face {
+  font-family: aBold;
+  src: url('/assets/fonts/Aileron-Bold.otf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 90%;
+  margin: var(--center-margin);
+  padding: var(--desktop-grid-margin) 0;
+}
+
+/* HEADING SECTION */
+
+.heading h1 {
+  font-family: aBold;
+  font-size: var(--desktop-title);
+  color: var(--primary-text-color);
+}
+
+.sub_title {
+  width: 50%;
+  margin-top: var(--small-margin);
+}
+
+.sub_title p {
+  font-family: aRegular;
+  font-size: var(--desktop-subtitle);
+  line-height: 1.4;
+  color: var(--secondary-text-color);
+}
+
+.heading a {
+  display: inline-block;
+  font-family: aRegular;
+  font-size: var(--desktop-link);
+  color: var(--secondary-text-color);
+  margin-top: var(--small-margin);
+}
+
+/* CARDS SECTION */
+
+main {
+  padding-top: var(--desktop-spacing);
+}
+
+.article_container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+article {
+  width: 350px;
+}
+
+article a {
+  text-decoration: none;
+}
+
+.card_image img {
+  display: block;
+  width: auto;
+  height: 250px;
+  margin: 0;
+  padding: 0;
+}
+
+.overline {
+  font-family: aRegular;
+  font-size: var(--desktop-overline);
+  margin-top: var(--small-margin);
+  color: var(--secondary-text-color);
+}
+
+.card_title {
+  font-family: aSemi;
+  font-size: var(--desktop-card-title);
+  line-height: 1.4;
+  margin-top: var(--small-margin);
+  color: var(--primary-text-color);
+}
