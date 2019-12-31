@@ -61,6 +61,7 @@ body {
   width: 90%;
   margin: var(--center-margin);
   padding: var(--desktop-grid-margin) 0;
+  background-color: #f2f2f2;
 }
 
 /* HEADING SECTION */
@@ -117,16 +118,17 @@ article a {
 
 .card_image img {
   display: block;
-  width: auto;
-  height: 250px;
+  width: 350px;
+  height: 200px;
   margin: 0;
   padding: 0;
+  object-fit: cover;
 }
 
 .overline {
   font-family: aRegular;
   font-size: var(--desktop-overline);
-  margin-top: var(--small-margin);
+  margin-top: var(--base-margin);
   color: var(--secondary-text-color);
 }
 
@@ -134,6 +136,6 @@ article a {
   font-family: aSemi;
   font-size: var(--desktop-card-title);
   line-height: 1.4;
-  margin-top: var(--small-margin);
+  margin-top: var(--base-margin);
   color: var(--primary-text-color);
 }
