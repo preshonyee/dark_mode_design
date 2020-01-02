@@ -90,6 +90,7 @@ body {
   font-size: var(--desktop-link);
   color: var(--secondary-text-color);
   margin-top: var(--small-margin);
+  margin-right: var(--base-margin);
 }
 
 /* CARDS SECTION */
