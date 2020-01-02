@@ -4,7 +4,7 @@
 
 ## TODO
 
-- [ ] Add dark mode functionality for the site itself
+- [x] Add dark mode functionality for the site itself
 - [ ] Add new contents
 - [ ] Make the alt tags much more descriptive
 
