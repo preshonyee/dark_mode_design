@@ -1,5 +1,7 @@
 # DarkModeDesign.xyz
 
+[Visit the site](https://darkmodedesign.xyz)
+
 ## TODO
 
 - [ ] Add dark mode functionality for the site itself
@@ -9,6 +11,10 @@
 ## Questions or suggestions?
 
 Hit me up on [Twitter](https://mobile.twitter.com/@99presh), or create an issue.
+
+## Next Steps
+
+## Credits
 
 ## Copyright
 
