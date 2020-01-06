@@ -218,7 +218,7 @@ articles.forEach(function(article) {
   <article>
   <a href="${article.articleUrl}" target="_blank" rel="noreferrer noopener">
     <div class="card_image">
-      <img alt="${article.imageAlt}" src="${article.imageUrl}">
+      <img alt="${article.imageAlt}" src="${article.imageUrl}" loading="lazy">
     </div>
     <div class="card_text">
       <p class="overline">${article.overline.toUpperCase()}</p>
