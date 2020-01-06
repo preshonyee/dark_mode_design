@@ -89,8 +89,13 @@ body {
   font-family: aRegular;
   font-size: var(--desktop-link);
   color: var(--secondary-text-color);
-  margin-top: var(--small-margin);
+  margin-top: var(--base-margin);
   margin-right: var(--base-margin);
+}
+
+.product_hunt {
+  display: inline-block;
+  margin-top: 50px;
 }
 
 /* CARDS SECTION */
