@@ -8,6 +8,10 @@
 - [ ] Add new contents
 - [ ] Make the alt tags much more descriptive
 
+## Contribute
+
+If you would like to see content added, ping me on [Twitter](https://mobile.twitter.com/preshonyee) or checkout the `article.js` file and send a pull request.
+
 ## Questions or suggestions?
 
 Hit me up on [Twitter](https://mobile.twitter.com/@99presh), or create an issue.
